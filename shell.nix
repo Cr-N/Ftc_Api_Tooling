@@ -11,6 +11,9 @@ in pkgs.mkShell {
       requests
       matplotlib
       openpyxl
+      httpx
+      reportlab
+      colorama
     ]))
   ];
 }
